@@ -12,5 +12,6 @@ public class C05_getWndowHandle {
         System.out.println(driver.getWindowHandle());
         //CDwindow-658D6255BDB6149F8221D2F432864E23
         //benzersiz olarak acilan windowa ait hashcode unu verir.
+        driver.close();
     }
 }

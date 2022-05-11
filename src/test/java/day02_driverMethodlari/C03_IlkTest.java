@@ -29,11 +29,11 @@ public class C03_IlkTest {
 
         //3-Url 'in https://www.amazon.com esit oldugunu test edin
         String actualUrl=driver.getCurrentUrl();
-       String expectedUrl="https://www.amazon.com";
+       String expectedUrl="https://www.amazon.com/";
        if(actualUrl.equals(expectedUrl)){
            System.out.println("Url testi PASSED");
        }else{
-           System.out.println("actual Url : "+actualUrl+"Test FAILED");
+           System.out.println("actual Url : "+actualUrl+" Test FAILED");
        }
 
 

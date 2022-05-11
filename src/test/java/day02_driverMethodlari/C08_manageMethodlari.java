@@ -15,7 +15,7 @@ public class C08_manageMethodlari {
         driver.manage().window().fullscreen();
         System.out.println("fullscreen konum : "+driver.manage().window().getPosition() );
         System.out.println("fullscreen boyut : "+driver.manage().window().getSize() );
-
+        driver.close();
 
     }
 }
